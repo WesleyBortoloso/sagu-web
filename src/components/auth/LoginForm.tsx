@@ -42,7 +42,9 @@ export function LoginForm() {
     },
   });
 
-  const onSubmit = async (data: LoginFormValues) => {};
+  const onSubmit = async (data: LoginFormValues) => {
+    navigate('/home');
+  };
 
   return (
     <Card className="shadow-md border-gray-200 bg-gray-50">
