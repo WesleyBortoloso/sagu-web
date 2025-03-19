@@ -25,7 +25,7 @@ export function MainNav({ sidebarOpen, setSidebarOpen }: MainNavProps) {
       <div className="flex items-center gap-4">
         <Button variant="ghost" size="icon" className="relative rounded-full" aria-label="Notifications">
           <Bell className="h-5 w-5 text-muted-foreground" />
-          <span className="absolute top-1 right-1 h-2 w-2 rounded-full bg-school-primary" />
+          <span className="absolute top-1 right-1 h-2 w-2 rounded-full bg-sagu-primary" />
         </Button>
         <Button variant="ghost" size="icon" className="rounded-full" aria-label="User menu">
           <User className="h-5 w-5 text-muted-foreground" />
